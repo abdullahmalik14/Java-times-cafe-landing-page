@@ -1,0 +1,660 @@
+/* -------------------------------------------header-section-------------------------------------- */
+.header-up{
+    background: #262626;
+    padding-inline: 100px;
+  z-index: 10000; 
+display: flex;
+justify-content: space-between;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.header-up-left{
+    flex: 1;
+}
+.header-up-left ul{
+    display: flex;
+    gap: 10px;
+    
+}
+.header-up-left ul li{
+    color: #FFFFFF;
+    line-height: 14.52px;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.header-up-right ul{
+    display: flex;
+    gap: 10px;
+}
+.header-up-right ul li{
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 14.52px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.header-up-right ul li select{
+    background: #262626;
+    color: #FFFFFF;
+    border: none;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+margin-top: -5px;
+}
+.header-down{
+    padding-inline: 100px;
+  z-index: 10000; 
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+.header-down-left img{
+    width: 100%;
+}
+.header-down-middle ul{
+    
+    display: flex;
+    gap: 20px;
+    padding-top: 5px;
+    position: relative;
+    right: -50px;
+}
+.header-down-middle ul li{
+    color: #262626;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    padding-bottom: 5px;
+}
+.header-down-middle ul li.active {
+    border-bottom: 2px solid black;
+    transition: 0.1s;
+}
+.header-down-right{
+    display: flex;
+    gap: 15px;
+}
+.header-down-right .search-icon{
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.header-down-right .cart-icon{
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.header-down .register-button button{
+    border-radius: 7px;
+    background-color: #262626;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+.header-down .signin-button button{
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    color: #262626;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+header .hamburger-mobile{
+    display: none;
+}
+header .mobile-nav{
+    display: none;
+}
+
+/* --------------------------------------store--section---------------------------------------- */
+.store-con{
+    padding-inline: 100px;
+  height: auto;
+   }
+
+   .store-con .sec-one h1{
+font-size: 81px;
+font-weight: 700;
+line-height:103.01px;
+color: #1A1A1A;
+   }
+
+   .store-con .sec-one p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1A1A1A;
+   }
+   .store-con .sec-one p span{
+    color: #C96B77;
+   }
+
+   .sec-two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 10px;
+   }
+   .sec-two .search-sec{
+    /* border-right: 2px solid #ECECEC; */
+    padding-right: 5px;
+display: flex;
+gap: 10px;
+background-color: #F8F9FB;
+padding: 10px 20px;
+border-radius: 510px;
+width:85%;
+   }
+   .sec-two .search-sec .search-icon{
+    font-size: 20px;
+   }
+   .sec-two .search-input input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background-color: #F8F9FB;
+   }
+
+   .sec-two .search-input input::placeholder{
+    color: #D9D9D9;
+   }
+   .sec-two .location{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+   }
+   .sec-two .location h5{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+    color: #1A1A1A;
+   }
+   .location select{
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+    color: #1A1A1A;
+    margin-top: -10px;
+   }
+   .border{
+    border: 1px solid #D9D9D9;
+    height: 40px;
+   }
+  
+   /* -----------------------------card-container----------------------------------------- */
+   .card-sec {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-container {
+    flex: 1 1 calc(33.333% - 16px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background: #fff; /* Add any styles for the card */
+    border: 1px solid #ddd; /* Add border if needed */
+    border-radius: 30px;
+    margin-top: 20px;
+    max-width: 350px;
+}
+
+.card-container.placeholder {
+    visibility: hidden;
+}
+
+.card-details {
+    padding: 20px 20px;
+}
+
+.card-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px 30px 0px 0px;
+    object-fit: cover;
+}
+
+.card-container .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Example specific styles */
+.card-container .profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-inline: 20px;
+}
+
+.card-container .profile h5 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #1A1A1A;
+}
+
+.card-container .description p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #929094;
+    margin-top: 15px;
+}
+
+.card-container .location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.card-container .location img {
+    width: 10%;
+}
+
+.card-container .location p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #929094;
+}
+
+.card-container .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container .btn button {
+    padding: 10px 24px;
+    width: 100%;
+    border-radius: 510px;
+    border: 2px solid #AC4553;
+    color: #AC4553;
+    font-size: 20px;
+    background: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.green-button {
+    display: flex;
+    border: none;
+    border-radius: 510px;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #09BB09;
+}
+
+.green-button button {
+    background: none;
+    padding: 10px 24px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.green-button .check-mark {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: -12px;
+}
+
+.card-sec .btn-show-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-sec .btn-show-more button {
+    padding: 10px 100px;
+    background: none;
+    border: 2px solid #929094;
+    font-size: 22px;
+    font-weight: 500;
+    color: #1A1A1A;
+    border-radius: 494px;
+    cursor: pointer;
+}
+
+
+/* -------------------------------news-letter--------------------------------------- */
+.news-letter{
+    padding-inline: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.news-letter .news-letter-left h4{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.news-letter .news-letter-left p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.news-letter-right{
+    margin-top: 20px;
+}
+.news-letter-right .search{
+    display: flex;
+    gap: 10px;
+    border: 1px solid #000000;
+    padding: 5px 5px 5px 15px;
+    /* width: 100%; */
+    border-radius: 9.12px;
+    justify-content: space-between;
+    width: 400px;
+}
+.news-letter-right .search .input-field input{
+    border: none;
+    outline: none;
+    background: none;
+    margin-top: 10px;
+    
+}
+.news-letter-right .search .subs-btn button{
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 9.12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* --------------------------footer--------------------------------------------- */
+.footer-container{
+    padding-inline: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    /* gap: 20px; */
+}
+
+.footer-container .sec-1 img{
+   object-fit: contain;
+   margin-bottom: 10px;
+}
+.footer-container .sec-1 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 20px;
+}
+.footer-container .sec-1 .social-links{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+
+.footer-container .sec-2 h6{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer-container .sec-2 .border{
+    border-bottom: 1px solid #000000;
+height: 0px;
+width: 30px;
+margin-top: 10px;
+}
+.footer-container .sec-2 ul li{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.copyright-sec{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.copyright-sec p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+
+/* -------------------------------card-details------------------------------------------ */
+.card-details-container{
+    padding-inline: 100px;
+}
+
+.card-details-container .section-1-up{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-details-container .section-1-up h1{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    color: 
+    #1A1A1A;
+}
+
+.card-details-container .section-1-up p{
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: 
+#1A1A1A;
+margin-top: 20px;
+}
+
+.section-1-down {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .section-1-left,
+.section-1-right {
+    flex: 1; 
+} */
+
+.section-1-left img {
+    max-width: 100%; /
+}
+
+.investment-card {
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: start;
+}
+
+.progress-bar {
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.progress {
+    height: 10px;
+    background-color: #09BB09;
+    width: 0;
+}
+
+.investment-details h3 {
+    color: #09BB09;
+    margin: 10px 0;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+.investment-details p {
+    color: #929094;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.stats div{
+    margin-top: 20px;
+}
+
+.stats h4 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #1A1A1A;
+}
+
+.stats p {
+    color: #929094;
+}
+
+.address{
+    margin-top: 20px;
+}
+.address p {
+    color:#929094;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+.address svg{
+    font-size: 30px;
+}
+
+.invest-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.invest-button:hover {
+    background-color: darkgreen;
+}
+
+.minimum-investment {
+    color: #929094;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-details-container .section-2-up{
+    display: grid;
+    justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+.card-details-container .section-2-up h1{
+    font-size: 61px;
+    line-height: 77px;
+    font-weight: 700;
+}
+
+.section-2-up .border{
+    width: 150px;
+    border-bottom: 3px solid #09BB09;
+    height: 0px;
+}
+
+.section-2-down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.section-2-down .sec-2-down-left{
+    flex: 1;
+    max-width: 600px;
+}
+
+.section-2-down .sec-2-down-left h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 54px;
+    color: #1A1A1A;
+    margin-bottom: 40px;
+}
+
+
+.section-2-down .sec-2-down-left p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1A1A1A;
+margin-bottom: 30px;
+}
+
+.section-2-down .sec-2-down-right img{
+    max-width: 500px;
+    width: 100%;
+        }
+.card-details-container .btn-show-more{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.card-details-container .btn-show-more button{
+    padding: 10px 100px;
+    background: none;
+    border: 2px solid #929094;
+    font-size: 22px;
+    font-weight: 500;
+    color: #1A1A1A;
+    border-radius: 494px;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,1027 @@
+@media (max-width:1200px) {
+    .header-up{
+        padding-inline: 40px;
+    }
+    .header-down{
+        padding-inline: 40px;
+    }
+    .header-down-middle ul{
+        gap: 15px;
+        right: -30px;
+    }
+    .store-con{
+        padding-inline: 40px;
+       }
+       .card-container .profile img {
+        width: 40px;
+        height: 40px;
+    }
+    .card-container .profile h5 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    .card-container .description p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .card-container .location p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #929094;
+    }
+    .card-container .btn button {
+        padding: 8px 10px 8px 10px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .green-button{
+        margin-top: 20px;
+    }
+    .green-button button {
+        padding: 10px 10px 8px 10px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .green-button .check-mark {
+       right: 15px;
+    }
+    .news-letter{
+        padding-inline: 40px;
+        
+    }
+    .footer-container{
+        padding-inline: 40px;
+      
+    }
+    
+    
+}
+
+@media (max-width:990px) {
+    header .header-up{
+        display: none;
+    }
+    header .header-down .header-down-middle{
+        display: none;
+    }
+    header .header-down .header-down-right{
+        display: none;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      }
+      header .mobile-nav {
+        display: block;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: #000000;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 9999;
+        transform: translate(100%);
+        transition: transform 0.5s linear;
+        padding: 20px;
+      }
+      header .hamburger-mobile {
+        display: block;
+      }
+      header .hamburger-mobile ul li svg {
+        font-size: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-left: -40px;
+      }
+      header .mobile-nav.active {
+        transform: translate(0);
+      }
+      header .mobile-nav .one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+      }
+    
+      header .mobile-nav .two {
+        margin-top: 36px;
+        height: calc(100vh - 93.64px);
+        display: flex;
+        /* justify-content: center; */
+        align-items: start;
+        padding-inline: 40px;
+      }
+
+      header .mobile-nav .one .one-right svg {
+        font-size: 30px;
+        color: #000;
+        cursor: pointer;
+      }
+      header .mobile-nav .two ul li {
+        /* text-align: center; */
+        font-size: 20px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-top: 20px;
+        font-family: "poppins", sans-serif;
+      }
+      header .mobile-nav .two ul li:hover {
+        color: red;
+        transition: 0.3s;
+      }
+      header .mobile-nav .header-down-right{
+        position: absolute;
+        top: 320px;
+        display: flex;
+        flex-direction: column;
+        padding-inline: 40px;
+      }
+      header .mobile-nav .header-down-right .icons{
+        display: flex;
+        gap: 30px;
+      }
+      header .mobile-nav .header-down-right .register-button button{
+        padding: 10px 40px ;
+        font-size: 18px;
+        background: none;
+        color: #fff;
+        outline: none;
+        border: 2px solid red;
+        border-radius: 49px;
+      }
+      header .mobile-nav .header-down-right .signin-button button{
+        padding: 10px 45px ;
+        font-size: 18px;
+        background: none;
+        color: #fff;
+        outline: none;
+        border: 2px solid red;
+        border-radius: 49px;
+      }
+    .store-con{
+        padding-inline: 20px;
+       }
+       .card-container .profile img {
+        width: 30px;
+        height: 30px;
+    }
+    .card-container .profile h5 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    .card-container .description p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .card-container .location p {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        color: #929094;
+    }
+    .card-container .btn button {
+        padding: 8px 10px 8px 10px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .green-button button {
+        padding: 10px 10px 8px 10px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .green-button .check-mark {
+       right: 15px;
+    }
+    .news-letter{
+        padding-inline: 20px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-container{
+        padding-inline: 20px;
+    margin-bottom: 40px;
+
+    }
+    .footer-container .sec-1 p{
+        font-size: 12px;
+        line-height: 20px;
+        margin-top:10px ;
+    }
+    .footer-container .sec-1 .social-links{
+        gap: 10px;
+    }
+    
+.footer-container .sec-2 h6{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.footer-container .sec-2 ul li{
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.copyright-sec p{
+    font-size: 14px;
+    line-height: 20px;
+}
+    
+}
+
+
+@media (max-width:768px) {
+    .store-con{
+        padding-inline: 20px;
+       }
+       .store-con .sec-one h1{
+       font-size: 60px;
+       line-height: 90px;
+       }
+       .store-con .sec-one p{
+        font-size: 16px;
+        line-height: 20px;
+        }
+        .sec-two .location h5{
+            font-size: 20px;
+            line-height: 29px;
+           }
+           .location select{
+            font-size: 20px;
+            line-height: 29px;
+           }
+       .card-container .profile img {
+        width: 25px;
+        height: 25px;
+    }
+    .card-details {
+        padding: 10px 10px;
+    }
+    .card-container .profile h5 {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+    }
+    .card-container .description p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+    }
+    .card-container .location p {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        color: #929094;
+    }
+    .card-container .btn button {
+        padding: 8px 10px 8px 10px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .green-button button {
+        padding: 10px 10px 8px 10px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .green-button .check-mark {
+       right: 15px;
+       width: 15px;
+       height: 15px;
+    }
+    .news-letter{
+        padding-inline: 20px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-container{
+        padding-inline: 20px;
+    margin-bottom: 40px;
+
+    }
+    .footer-container .sec-1 p{
+        font-size: 12px;
+        line-height: 20px;
+        margin-top:10px ;
+    }
+    .footer-container .sec-1 .social-links{
+        gap: 10px;
+    }
+    
+.footer-container .sec-2 h6{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.footer-container .sec-2 ul li{
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.copyright-sec p{
+    font-size: 14px;
+    line-height: 20px;
+}
+}
+
+
+@media (max-width:600px) {
+   
+
+       .card-container .profile img {
+        width: 20px;
+        height: 20px;
+    }
+    .card-details {
+        padding: 6px 6px;
+    }
+    .card-container .profile h5 {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 12px;
+    }
+    .card-container .description p {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 12px;
+    }
+    .card-container .location p {
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 10px;
+        color: #929094;
+    }
+    .card-container .btn button {
+        padding: 8px 10px 8px 10px;
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .green-button button {
+        padding: 6px 8px 6px 8px;
+        width: 80%;
+        font-size: 12px;
+    }
+    .green-button .check-mark {
+       right: 15px;
+       width: 15px;
+       height: 15px;
+    }
+    .card-sec .btn-show-more button {
+        padding: 10px 60px;
+    }
+    
+    .footer-container{
+        padding-inline: 20px;
+    margin-bottom: 40px;
+
+    }
+    .footer-container .sec-1 p{
+        font-size: 10px;
+        line-height: 15px;
+        margin-top:10px ;
+    }
+    .footer-container .sec-1 .social-links{
+        gap: 8px;
+    }
+    
+.footer-container .sec-2 h6{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+.footer-container .sec-2 ul li{
+    font-size: 8px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+.copyright-sec p{
+    font-size: 14px;
+    line-height: 20px;
+}
+}
+
+
+@media (max-width:468px) {
+
+       .store-con .sec-one h1{
+       font-size: 40px;
+       line-height: 70px;
+       }
+       .store-con .sec-one p{
+        font-size: 12px;
+        line-height: 20px;
+        }
+        .sec-two .location{
+            gap: 0px;
+            margin-top: 10px;
+           }
+           .sec-two .location h5{
+            font-size: 12px;
+            line-height: 20px;
+            color: #1A1A1A;
+           }
+           .location select{
+            font-size: 12px;
+            line-height: 20px;
+            margin-top: -15px;
+           }
+           .location select option{
+            font-size: 8px;
+           }
+           .sec-two .search-sec{
+        background-color: #F8F9FB;
+        padding: 10px 20px;
+        border-radius: 510px;
+        width:65%;
+           }
+           .sec-two .search-sec .search-icon{
+            font-size: 20px;
+           }
+           .sec-two .search-input input{
+            font-size: 12px;
+            outline: none;
+            border: none;
+            background-color: #F8F9FB;
+            width: 100%;
+           }
+    .card-container .profile img {
+     width: 15px;
+     height: 15px;
+ }
+ .card-details {
+     padding: 4px 4px;
+ }
+ .card-container .profile{
+    padding-inline: 10px;
+    margin-top: 10px;
+ }
+ .card-container .profile h5 {
+     font-size: 8px;
+     font-weight: 600;
+     line-height: 10px;
+ }
+ .card-container .description p {
+     font-size: 8px;
+     font-weight: 400;
+     line-height: 10px;
+ }
+ .card-container .location p {
+     font-weight: 500;
+     font-size: 8px;
+     line-height: 10px;
+     color: #929094;
+ }
+ .card-container .btn button {
+     padding: 5px 10px 5px 10px;
+     width: 70%;
+     font-size: 8px;
+    border-radius: 40px;
+ }
+
+ .green-button button {
+     padding: 5px 2px 5px 2px;
+     width: 50%;
+     font-size: 8px;
+ }
+ .green-button .check-mark {
+    right: 0px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+ }
+ .card-sec .btn-show-more button {
+     padding: 10px 60px;
+ }
+
+ .news-letter .news-letter-left p{
+    font-size: 10px;
+    line-height: 24px;
+}
+
+.news-letter-right{
+    margin-top: 0px;
+}
+.news-letter-right .search{
+    width: 300px;
+}
+
+.news-letter-right .search .subs-btn button{
+    padding: 8px 15px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+ .footer-container{
+ flex-direction: column;
+gap: 20px;
+ }
+ .footer-container .sec-1 p{
+     font-size: 16px;
+     line-height: 20px;
+     margin-top:10px ;
+ }
+ .footer-container .sec-1 .social-links{
+     gap: 15px;
+ }
+ 
+.footer-container .sec-2 h6{
+ font-size: 25px;
+ line-height: 29px;
+}
+
+
+.footer-container .sec-2 ul li{
+ font-size: 16px;
+ line-height: 29px;
+ margin-top: 10px;
+}
+
+.copyright-sec p{
+ font-size: 12px;
+ line-height: 15px;
+}
+}
+
+
+
+/* ----------------------------acard-details-responsiveness---------------------------- */
+@media (max-width:1200px) {
+    .card-details-container{
+        padding-inline: 40px;
+        
+    }
+
+
+    .investment-details h3 {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
+    }
+
+    .investment-details p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .stats div{
+        margin-top: 10px;
+    }
+    
+    .stats h4 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    
+    .address{
+        margin-top: 10px;
+    }
+
+    .address svg{
+        font-size: 25px;
+    }
+    .address p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .invest-button {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 40px;
+        width: 100%;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .invest-button:hover {
+        background-color: darkgreen;
+    }
+    
+    .minimum-investment {
+        color: #929094;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    
+    .section-2-down .sec-2-down-left h1{
+        font-size: 45px;
+        line-height: 40px;
+    }
+    
+    .section-2-down .sec-2-down-left p{
+        font-size: 16px;
+        line-height: 25px;
+    margin-bottom: 20px;
+    }
+    .section-2-down .sec-2-down-right img{
+        max-width: 400px;
+        width: 100%;
+            }
+            .section-2-down .sec-2-down-right{
+                gap: 10px;
+            }
+    
+}
+
+
+@media (max-width:990px) {
+    .card-details-container{
+        padding-inline: 40px;
+        
+    }
+
+    .card-details-container .section-1-up h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    .card-details-container .section-1-up p{
+    font-size: 18px;
+    line-height: 22px;
+    }
+
+    .investment-details h3 {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0px;
+    }
+
+    .investment-details p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .stats div{
+        margin-top: 5px;
+    }
+    
+    .stats h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .address{
+        margin-top: 5px;
+    }
+
+    .address svg{
+        font-size: 20px;
+    }
+    .address p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .invest-button {
+        padding: 10px 16px;
+        width: 100%;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    
+    .minimum-investment {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .section-2-down .sec-2-down-left h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .section-2-down .sec-2-down-left p{
+        font-size: 14px;
+        line-height: 20px;
+    margin-bottom: 10px;
+    }
+    .section-2-down .sec-2-down-right{
+        gap: 10px;
+    }
+    .section-2-down .sec-2-down-right img{
+        max-width: 300px;
+        width: 100%;
+            }
+}
+
+
+@media (max-width:800px) {
+    .card-details-container .section-1-up h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .card-details-container .section-1-up p{
+    font-size: 16px;
+    line-height: 20px;
+    }
+    .section-1-down {
+      flex-direction: column;
+    }
+    .section-1-left{
+        margin-bottom: 100px;
+    }
+
+    .investment-card {
+        border-radius: 8px;
+        padding: 20px;
+        max-width: 400px;
+        width: 100%;
+        text-align: start;
+    }
+    
+    .investment-details h3 {
+        margin: 10px 0;
+        font-size: 28px;
+        line-height: 35px;
+    }
+    
+    .investment-details p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    .stats div{
+        margin-top: 20px;
+    }
+    
+    .stats h4 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    .address{
+        margin-top: 20px;
+    }
+    .address p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .address svg{
+        font-size: 30px;
+    }
+    
+    .invest-button {
+        padding: 10px 20px;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .minimum-investment {
+        margin-top: 10px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .section-2-down{
+      flex-direction: column;
+    }
+    
+    .section-2-down .sec-2-down-left{
+        flex: 1;
+        max-width: 600px;
+    }
+    
+    .section-2-down .sec-2-down-left h1{
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 54px;
+        color: #1A1A1A;
+        margin-bottom: 40px;
+    }
+    
+    
+    .section-2-down .sec-2-down-left p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #1A1A1A;
+    margin-bottom: 30px;
+    }
+    
+    .section-2-down .sec-2-down-right img{
+        max-width: 600px;
+        width: 100%;
+            }
+    
+}
+
+
+@media (max-width:600px) {
+    .card-details-container .section-1-up h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .card-details-container .section-1-up p{
+    font-size: 16px;
+    line-height: 20px;
+    }
+    .section-1-down {
+      flex-direction: column;
+    }
+    .section-1-left{
+        margin-bottom: 80px;
+    }
+
+    .investment-card {
+        border-radius: 8px;
+        padding: 20px;
+        max-width: 400px;
+        width: 100%;
+        text-align: start;
+    }
+    
+    .investment-details h3 {
+        margin: 10px 0;
+        font-size: 28px;
+        line-height: 35px;
+    }
+    
+    .investment-details p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    .stats div{
+        margin-top: 20px;
+    }
+    
+    .stats h4 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    .address{
+        margin-top: 20px;
+    }
+    .address p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .address svg{
+        font-size: 30px;
+    }
+    
+    .invest-button {
+        padding: 10px 20px;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .minimum-investment {
+        margin-top: 10px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .section-2-down{
+      flex-direction: column;
+    }
+    
+    .section-2-down .sec-2-down-left{
+        flex: 1;
+        max-width: 500px;
+    }
+    
+    .section-2-down .sec-2-down-left h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    
+    .section-2-down .sec-2-down-left p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .section-2-down .sec-2-down-right img{
+        max-width: 600px;
+        width: 100%;
+            }
+    
+}
+
+
+@media (max-width:600px) {
+    .card-details-container .section-1-up h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .card-details-container .section-1-up p{
+    font-size: 16px;
+    line-height: 20px;
+    }
+
+    .section-1-left{
+        margin-bottom:50px;
+    }
+
+    
+    .investment-details h3 {
+        margin: 10px 0;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+    
+    .investment-details p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .stats h4 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .address p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .address svg{
+        font-size: 20px;
+    }
+    
+    .invest-button {
+        padding: 10px 20px;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .minimum-investment {
+        margin-top: 10px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .card-details-container .section-2-up h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    .section-2-up .border{
+        width: 120px;
+        border-bottom: 3px solid #09BB09;
+        height: 0px;
+    }
+    .section-2-down{
+      flex-direction: column;
+    }
+    
+    
+    .section-2-down .sec-2-down-left h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    
+    .section-2-down .sec-2-down-left p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .section-2-down .sec-2-down-right img{
+        max-width: 600px;
+        width: 100%;
+        margin-top: 50px;
+            }
+
+            .card-details-container .btn-show-more{
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            
+            .card-details-container .btn-show-more button{
+                padding: 10px 50px;
+                font-size: 18px;
+            }
+            
+    
+}
