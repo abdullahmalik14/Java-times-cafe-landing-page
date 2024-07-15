@@ -416,8 +416,10 @@
 }
 
 
-@media (max-width:468px) {
-
+@media (max-width:500px) {
+.header-down{
+        padding-inline: 20px;
+    }
        .store-con .sec-one h1{
        font-size: 40px;
        line-height: 70px;
