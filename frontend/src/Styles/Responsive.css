@@ -459,50 +459,65 @@
             background-color: #F8F9FB;
             width: 100%;
            }
+    
+
+.card-sec{
+            flex-direction: column;
+            padding-inline: 50px;
+           }
+           .card-container{
+            width: 100%;
+        }
     .card-container .profile img {
-     width: 15px;
-     height: 15px;
+     width: 40px;
+     height: 40px;
  }
  .card-details {
-     padding: 4px 4px;
+     padding: 5px 10px;
  }
  .card-container .profile{
     padding-inline: 10px;
     margin-top: 10px;
  }
  .card-container .profile h5 {
-     font-size: 8px;
+     font-size: 20px;
      font-weight: 600;
-     line-height: 10px;
+     line-height: 25px;
  }
  .card-container .description p {
-     font-size: 8px;
+     font-size: 14px;
      font-weight: 400;
-     line-height: 10px;
+     line-height: 20px;
  }
  .card-container .location p {
      font-weight: 500;
-     font-size: 8px;
-     line-height: 10px;
+     font-size: 14px;
+     line-height: 20px;
      color: #929094;
+     margin-bottom: 20px;
  }
  .card-container .btn button {
-     padding: 5px 10px 5px 10px;
-     width: 70%;
-     font-size: 8px;
+     padding: 10px 20px 10px 20px;
+     width: 60%;
+     font-size: 14px;
     border-radius: 40px;
  }
+ .green-button {
+    background-color: #09BB09;
+    width: 100%;
+    margin: auto;
+}
 
  .green-button button {
-     padding: 5px 2px 5px 2px;
-     width: 50%;
-     font-size: 8px;
+     padding: 10px 10px 10px 10px;
+     width: 80%;
+     font-size: 14px;
  }
  .green-button .check-mark {
     right: 0px;
     top: 10px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
  }
  .card-sec .btn-show-more button {
      padding: 10px 60px;
