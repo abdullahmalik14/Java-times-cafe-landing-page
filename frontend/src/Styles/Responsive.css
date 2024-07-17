@@ -465,7 +465,7 @@
 
 .card-sec{
             flex-direction: column;
-            padding-inline: 50px;
+            padding-inline: 20px;
            }
            .card-container{
             width: 100%;
